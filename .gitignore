@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Build logs and measurement output
+*.log
+scan_*.txt
+config.ini
+
+# Teslameter manufacturer files: not redistributable, copy them in
+# yourself (see README, "For developers")
+drivers/*
+!drivers/README.md
